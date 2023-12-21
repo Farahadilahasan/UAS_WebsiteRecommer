@@ -1,0 +1,245 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #FFFFFF;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: #364f6b;
+    z-index: 1;
+    border-bottom:8px solid white;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-size: 45px;
+    color: #364f6b;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.Recommendation-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-Recommendation {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-Recommendation img {
+    width: 80%;
+
+}
+
+.kartu-Recommendation p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.FindUs-list {
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-FindUs {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-FindUs img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#contact {
+    background: #dedede;
+    padding:50px 0px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-size: 30px;
+    color: #364f6b;
+}
+
+#copyright {
+    text-align: center;
+    padding: 50px 0px;
+    margin-top: 50px;
+}
+
+table {
+    width: 600px;
+}
+
+@media screen and (max-width:700px){
+    table {
+        width: 90%;
+    }
+}
+table td {
+    padding: 5px;
+}
+td.label { width: 40%;}
+.input {
+    border: 1px solid #CCCCCC;
+    background-color: #dfdfdf; 
+    border-radius : 5px;
+    padding : 10px;
+    width : 100%;
+}
+input.tbl-biru {
+    border: none;
+    background-color: #3f72af;
+    border-radius: 20px;
+    margin-top : 20px;
+    padding : 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor:pointer;
+    font-weight: bold;
+}
+input.tbl-biru:hover {
+    background-color: #fc5185;
+    text-decoration: none;
+}
+
+.form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh; 
+    }
+.form-message-wrapper {
+        text-align: center;
+        margin-bottom: 20px;
+}
+
+.error{
+        padding: 10px;
+        margin-bottom: 15px;
+        background-color: #f44336;
+        color: #FFFFFF;
+}
+
+.sukses {
+        padding: 10px;
+        margin-bottom: 15px;
+        background-color:#364f6b ;
+        color: #FFFFFF;
+}
+
+    h3 {
+        text-align: center;
+        margin-top : 60px;
+        font-size: 50px;
+        
+    }
+
